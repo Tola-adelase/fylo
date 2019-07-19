@@ -1,3 +1,4 @@
+/* Medium screen */
 @media (max-width:850px) { 
 .background{
     background:url('../images/illustration-main.svg');
@@ -8,10 +9,6 @@
     background-color: rgb(116, 13, 212);
  
   
-    }
-
-    .fylo-white{
-        
     }
     
     .fylo-nav{
@@ -34,6 +31,10 @@
         margin-top: 60px;
     }
 
+    .logo{
+      margin-top: 10px;
+    }
+
       h3{
         font-weight: bold;
         font-size: 30px;
@@ -54,3 +55,31 @@
         text-decoration: underline;
     }
 }
+
+/* Smaller Screen */
+
+
+@media (max-width:550px) {
+	.background{
+    background:url('../images/illustration-main.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(116, 13, 212);
+  
+    }
+    .logo{
+      margin-top: 10px;
+    }
+    
+    button{
+     margin-top: 10px;
+     margin-right: 10px;
+    background-color: blueviolet;
+    }
+
+    footer p{
+      margin-right: 30px;
+    }
+  }
